@@ -311,7 +311,7 @@ BLISS_OTA_BUILDDIR := Official
 ifeq ($(BLISS_BUILDTYPE),NIGHTLY)
   BLISS_OTA_BUILDDIR := Nightlies
 endif
-BLISS_BASE_URL    := http://downloads.blissroms.com/BlissPop
+BLISS_BASE_URL    := http://jagbuildbox.net/downloads/BlissPop
 BLISS_DEVICE_URL  := $(BLISS_BASE_URL)/$(BLISS_OTA_BUILDDIR)/$(TARGET_DEVICE)
 BLISS_OTA_VERSION := $(shell date +%Y%m%d)
 BLISS_ROM_NAME    := BlissPop
